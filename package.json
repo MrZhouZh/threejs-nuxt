@@ -1,0 +1,28 @@
+{
+  "name": "threejs-nuxt",
+  "private": true,
+  "packageManager": "pnpm@8.3.1",
+  "description": "Three.js by Nuxt",
+  "author": "Jace Chow <17600330793@sina.cn>",
+  "contributors": [
+    {
+      "name": "Jace Chow (@MrZhouZh)"
+    }
+  ],
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi start",
+    "lint": "eslint --ext .vue,.js,.ts --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.4.2",
+    "@nuxt/eslint-config": "^0.1.1",
+    "@types/node": "^18.16.0",
+    "@unocss/nuxt": "^0.53.6",
+    "eslint": "^8.39.0",
+    "nuxt": "^3.4.2",
+    "postcss-nesting": "^11.2.2",
+    "typescript": "^5.0.4"
+  }
+}
