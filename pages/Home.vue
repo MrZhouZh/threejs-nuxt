@@ -20,6 +20,7 @@
         <li>item 2</li>
         <li>item 3</li>
       </ul>
+      <CardItem />
     </div>
   </div>
 </template>
